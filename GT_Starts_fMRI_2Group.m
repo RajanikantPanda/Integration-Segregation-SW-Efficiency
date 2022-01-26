@@ -32,7 +32,7 @@ for i = 1:length(SUBJlist_Group1)
     Group1_Degree(i,:,:)= data.GT_degree;
     Group1_PC(i,:,:)= data.GT_participation_coeff;  
     
-    data_rand=load([Group1fix_sub_name '_RAND.mat'])
+    data_rand=load([Group1fix_sub_name '_RAND.mat']) 
     Group1_CC_rand(i,:,:,:)= data_rand.GT_clust_coeff_rand;     
     Group1_PL_rand(i,:,:,:)= data_rand.GT_path_length_rand;  
     Group1_LE_rand(i,:,:,:)= data_rand.GT_local_eff_rand;    
