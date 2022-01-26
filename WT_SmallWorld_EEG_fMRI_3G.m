@@ -313,7 +313,7 @@ sparsity_LE_Group3_50 = (mean(Group3_LE_50,3));
 sparsity_LE_rand_Group3 = mean(Group3_LE_rand_squ,3);
 sparsity_LE_rand_Group3_50 = sparsity_LE_rand_Group3 (:,1:SpaRng);
 
-Group3_GE_50=Group3_GE(:,1:SpaRng);
+Group3_GE_50=Group3_GE(:,1:SpaRng); 
 AvgGroup3_GE=squeeze(mean(Group3_GE_50));
 
 Sparsity_GE_Group3_50=squeeze(Group3_GE_50);
